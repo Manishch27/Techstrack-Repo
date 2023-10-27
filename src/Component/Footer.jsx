@@ -1,7 +1,7 @@
 import {RiTwitterXFill} from 'react-icons/ri'
 import {BiLogoLinkedin} from 'react-icons/bi'
 import {FaFacebook,FaInstagram} from 'react-icons/fa'
-import {Link} from 'react-scroll'
+import {Link} from 'react-scroll';
 
 const Footer = () => {
     return (
@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className="flex flex-col h-full justify-center space-y-2">
                     <h1 className='font-bold text-2xl py-3'>Contact Us</h1>
                     <p className='font-semibol text-md text-slate-300'>Mathura Utter Pradesh 281403 India</p>
-                    <p className='text-md font-medium text-slate-300'><span className='font-bold '>Phone:</span> +91 7505956083</p>
+                    <p className='text-md font-medium text-slate-300'><span className='font-bold '>Phone:</span> <Link to="tel: +917505956083">+91 7505956083</Link></p>
                     <p className='text-md font-medium text-slate-300'><span className='font-bold '>Email:</span> contact@techstrack.in</p>
                     <p className='text-md font-medium text-slate-300'><span className='font-bold '>Website:</span> techstrack.in</p>
                 </div>

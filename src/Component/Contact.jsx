@@ -1,4 +1,6 @@
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+
 const Contact = () => {
   const fadeInAnimationVariants = {
     initial: {
@@ -30,7 +32,9 @@ const Contact = () => {
           <div className="gap-6 mt-10 sm:mt-0 flex flex-col items-center sm:items-start p-5 justify-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl text-center sm:text-left text-black font-semibold">Get in touch with us</h1>
             <p className="text-slate-700 text-center dark:text-slate-900 sm:text-left">Do you still have doubts? Let take a one on one <br /> session with us.</p>
+            <Link to="tel: +917505956083">
             <button className="shadow-md w-52 shadow-slate-400 hover:bg-cyan-700 text-white duration-300 text-center px-12 py-3 bg-black rounded-md text-xl font-semibold">Call Us</button>
+            </Link>
           </div>
 
           <div className=" py-10 flex items-center justify-center md:justify-end w-full sm:w-[80%] md:w-full lg:w-1/2">
